@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyBankApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank">Hello blank fragment</string>
+</resources>
