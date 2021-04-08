@@ -18,12 +18,21 @@ class RegisterActivity : AppCompatActivity() {
         var registerBtn = findViewById<Button>(R.id.btnRegister)
 
         registerBtn.setOnClickListener(){
-            val intent = Intent(this, RegisterActivity::class.java);
-            user.firstName = findViewById<EditText>(R.id.editTextFirstName).toString()
-            user.lastName = findViewById<EditText>(R.id.editTextLastName).toString()
-            user.email = findViewById<EditText>(R.id.editTextEmail).toString()
-            user.username = findViewById<EditText>(R.id.editTextUsername).toString()
-            user.password = findViewById<EditText>(R.id.editTextPassword).toString()
+            val intent = Intent(this, RegisterActivity::class.java)
+
+            var fName = findViewById<EditText>(R.id.editTextFirstName) as EditText
+            var lName  = findViewById<EditText>(R.id.editTextLastName) as EditText
+            var email = findViewById<EditText>(R.id.editTextEmail) as EditText
+            var username = findViewById<EditText>(R.id.editTextUsername) as EditText
+            var password = findViewById<EditText>(R.id.editTextPassword) as EditText
+
+            user.lastName = lName.text.toString()
+            user.email = email.text.toString()
+            user.username = username.text.toString()
+            user.password = password.text.toString()
+            user.firstName = fName.text.toString()
+
+//            Log.d("register", )
 
             DataStorage.users.add(user)
 

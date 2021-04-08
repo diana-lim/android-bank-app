@@ -33,27 +33,27 @@ class Registration() {
 
     //*************** SETTERS DEFINED BELOW *************************
 
-    public fun setPassword(password: String): Any? {
+    public fun setPassword(password: String): String {
         this.password = password
         return password
     }
 
-    public fun setUserName(userName: String): Any? {
+    public fun setUserName(userName: String): String {
         this.username = userName
         return userName
     }
 
-    public fun setEmail(email: String): Any?{
+    public fun setEmail(email: String): String {
         this.email = email
         return email
     }
 
-    public fun setLastName(lastName: String): Any?{
+    public fun setLastName(lastName: String): String {
         this.lastName = lastName
         return lastName
     }
 
-    public fun setFirstName(firstName: String): Any? {
+    public fun setFirstName(firstName: String): String {
         this.firstName = firstName
         return firstName
     }
