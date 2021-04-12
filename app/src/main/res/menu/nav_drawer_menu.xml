@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/miItem1"
+        android:title="Check Balance" />
+
+    <item
+        android:id="@+id/miItem2"
+        android:title="Make a Deposit" />
+
+    <item
+        android:id="@+id/miItem3"
+        android:title="Make a Withdrawal" />
+
+    <item
+        android:id="@+id/miItem4"
+        android:title="Make a Transfer" />
+
+    <item
+        android:id="@+id/miItem5"
+        android:title="View Transaction History" />
+
+    <item
+        android:id="@+id/miItem6"
+        android:title="Sign Out" />
+
+</menu>
