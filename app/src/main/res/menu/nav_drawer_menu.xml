@@ -23,6 +23,7 @@
 
     <item
         android:id="@+id/miItem6"
-        android:title="Sign Out" />
+        android:title="Sign Out"
+        android:linksClickable="true"/>
 
 </menu>
